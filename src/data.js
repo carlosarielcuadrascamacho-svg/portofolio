@@ -1,4 +1,4 @@
-import HeroImage from "/assets/hero-img.webp";
+import HeroImage from "/assets/hero-img.webp"; 
 
 const Image = {
   HeroImage,
@@ -6,235 +6,222 @@ const Image = {
 
 export default Image;
 
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
-import Tools12 from "/assets/tools/kotlin.png";
-import Tools13 from "/assets/tools/firebase.png";
-import Tools14 from "/assets/tools/html.png";
-import Tools15 from "/assets/tools/css.png";
-import Tools16 from "/assets/tools/ts.png";
-import Tools17 from "/assets/tools/php.png";
-import Tools18 from "/assets/tools/vite.png";
-import Tools19 from "/assets/tools/mysql.png";
+// --- HERRAMIENTAS (TOOLS) ---
+// 1. Importaciones corregidas y unificadas
+import CSharpImg from "/assets/tools/csharp.png";
+import CppImg from "/assets/tools/cplusplus.png";
+import CImg from "/assets/tools/c.png";
+import SqlImg from "/assets/tools/sql.png";
+import JsImg from "/assets/tools/js.png";
+import HtmlImg from "/assets/tools/html.png";
+import CssImg from "/assets/tools/css.png";
+import NodeImg from "/assets/tools/nodejs.png";
+import PythonImg from "/assets/tools/python.png";
+import MongoImg from "/assets/tools/mongo.png";
+import GitImg from "/assets/tools/git.png";
+import GithubImg from "/assets/tools/github.png";
+import ReactImg from "/assets/tools/reactjs.png";
+import TailwindImg from "/assets/tools/tailwind.png";
+import BootstrapImg from "/assets/tools/bootstrap.png";
+import MySqlImg from "/assets/tools/mysql.png";
+import ViteImg from "/assets/tools/vite.png";
+import VsCodeImg from "/assets/tools/vscode.png";
 
 
 export const listTools = [
+  // --- NIVEL AVANZADO ---
   {
     id: 1,
-    gambar: Tools1,
-    nama: "Visual Studio Code",
-    ket: "Code Editor",
+    gambar: CSharpImg,
+    nama: "C#",
+    ket: "Lenguaje Principal",
     dad: "100",
   },
   {
     id: 2,
-    gambar: Tools2,
-    nama: "React JS",
-    ket: "Framework",
+    gambar: CppImg,
+    nama: "C++",
+    ket: "Sistemas",
     dad: "200",
   },
   {
     id: 3,
-    gambar: Tools3,
-    nama: "Next JS",
-    ket: "Framework",
+    gambar: CImg,
+    nama: "C",
+    ket: "Bajo Nivel",
     dad: "300",
   },
   {
     id: 4,
-    gambar: Tools4,
-    nama: "Tailwind CSS",
-    ket: "Framework",
+    gambar: SqlImg,
+    nama: "SQL Server",
+    ket: "Base de Datos",
     dad: "400",
   },
   {
     id: 5,
-    gambar: Tools5,
-    nama: "Bootstrap",
-    ket: "Framework",
+    gambar: MySqlImg,
+    nama: "MySQL",
+    ket: "Base de Datos",
     dad: "500",
   },
+
+  // --- NIVEL INTERMEDIO (Full Stack) ---
   {
     id: 6,
-    gambar: Tools6,
-    nama: "Javascript",
-    ket: "Language",
+    gambar: JsImg,
+    nama: "JavaScript",
+    ket: "Lenguaje Web",
     dad: "600",
   },
   {
     id: 7,
-    gambar: Tools7,
+    gambar: NodeImg,
     nama: "Node JS",
-    ket: "Javascript Runtime",
+    ket: "Runtime Environment",
     dad: "700",
   },
   {
     id: 8,
-    gambar: Tools8,
-    nama: "Github",
-    ket: "Repository",
-    dad: "800",
-  },
-  {
-    id: 9,
-    gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
+    gambar: ReactImg,
+    nama: "React",
+    ket: "Frontend Library",
     dad: "900",
   },
   {
-    id: 10,
-    gambar: Tools10,
-    nama: "Canva",
-    ket: "Design App",
+    id: 9,
+    gambar: HtmlImg,
+    nama: "HTML5",
+    ket: "Estructura",
     dad: "1000",
   },
   {
-    id: 11,
-    gambar: Tools11,
-    nama: "Figma",
-    ket: "Design App",
+    id: 10,
+    gambar: CssImg,
+    nama: "CSS3",
+    ket: "Estilos",
     dad: "1100",
   },
   {
-    id: 12,
-    gambar: Tools12,
-    nama: "Kotlin",
-    ket: "Language",
+    id: 11,
+    gambar: TailwindImg,
+    nama: "Tailwind CSS",
+    ket: "Framework CSS",
     dad: "1200",
   },
   {
-    id: 13,
-    gambar: Tools13,
-    nama: "Firebase",
-    ket: "Framework",
+    id: 12,
+    gambar: BootstrapImg,
+    nama: "Bootstrap",
+    ket: "Framework CSS",
     dad: "1300",
   },
+
+  // --- OTROS & HERRAMIENTAS ---
   {
-    id: 14,
-    gambar: Tools14,
-    nama: "HTML",
-    ket: "Language",
+    id: 13,
+    gambar: PythonImg,
+    nama: "Python",
+    ket: "IA / Scripting",
     dad: "1400",
   },
   {
-    id: 15,
-    gambar: Tools15,
-    nama: "CSS",
-    ket: "Language",
+    id: 14,
+    gambar: MongoImg,
+    nama: "MongoDB",
+    ket: "NoSQL DB",
     dad: "1500",
   },
   {
-    id: 16,
-    gambar: Tools16,
-    nama: "TypeScript",
-    ket: "Language",
+    id: 15,
+    gambar: GitImg,
+    nama: "Git",
+    ket: "Version Control",
     dad: "1600",
   },
   {
-    id: 17,
-    gambar: Tools17,
-    nama: "PHP",
-    ket: "Language",
+    id: 16,
+    gambar: GithubImg,
+    nama: "GitHub",
+    ket: "Repositorio",
     dad: "1700",
   },
   {
-    id: 18,
-    gambar: Tools18,
-    nama: "Vite",
-    ket: "Framework",
+    id: 17,
+    gambar: ArduinoImg,
+    nama: "Arduino",
+    ket: "IoT / Hardware",
     dad: "1800",
   },
   {
+    id: 18,
+    gambar: ViteImg,
+    nama: "Vite",
+    ket: "Build Tool",
+    dad: "2100",
+  },
+  {
     id: 19,
-    gambar: Tools19,
-    nama: "MySql",
-    ket: "Framework",
-    dad: "1900",
+    gambar: VsCodeImg,
+    nama: "VS Code",
+    ket: "Editor de Código",
+    dad: "2200",
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.jpg";
-import Proyek2 from "/assets/proyek/proyek2.jpg";
-import Proyek3 from "/assets/proyek/proyek3.jpg";
-import Proyek4 from "/assets/proyek/proyek4.jpg";
-import Proyek5 from "/assets/proyek/proyek5.jpg";
-import Proyek6 from "/assets/proyek/proyek6.jpg";
+// --- PROYECTOS ---
+import Proyek1 from "/assets/proyek/tecbus.png";
+import Proyek2 from "/assets/proyek/pos.png";
+import Proyek3 from "/assets/proyek/torreta.png";
+import Proyek4 from "/assets/proyek/kinder.png";
 
 export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "AIS Detection App",
-    subtitle: "A mobile application powered by Artificial Intelligence...",
-    fullDescription:"A mobile application powered by Artificial Intelligence and Machine Learning, developed to assist in the early detection of Adolescent Idiopathic Scoliosis (AIS). By analyzing patient data and patterns, the app provides predictions that can help doctors and patients take preventive measures. This project demonstrates the role of AI in modern healthcare by improving accuracy, accessibility, and efficiency in medical diagnosis.",
-    borderColor: "#3B82F6",
+    title: "TecBus - Transporte Inteligente",
+    subtitle: "Plataforma de rastreo universitario en tiempo real.",
+    fullDescription:
+      "Plataforma inteligente diseñada para optimizar, monitorear y analizar el servicio de transporte universitario en tiempo real. Conecta a estudiantes, conductores y administradores en una sola plataforma, permitiendo el rastreo en vivo de las unidades, la gestión de rutas y horarios. Tecnologías: Node.js, Express, MongoDB, Leaflet, PWA.",
+    borderColor: "#3B82F6", // Azul
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://tecbus-pcfl.onrender.com/",
     dad: "100",
   },
   {
     id: 2,
     image: Proyek2,
-    title: "IoT Air Quality Monitoring",
-    subtitle: "A smart IoT system designed to measure and analyze air quality...",
-    fullDescription:"A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
-    borderColor: "#10B981",
+    title: "Sistema Punto de Venta (POS)",
+    subtitle: "Aplicación de escritorio en C# y SQL Server.",
+    fullDescription:
+      "Sistema completo de ventas desarrollado como aplicación de escritorio, enfocado en lógica de negocio robusta. Gestiona inicio de sesión, productos, stock y registro de ventas. Destacado académicamente por su calidad visual y potencial de comercialización.",
+    borderColor: "#10B981", // Verde
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/carlosarielcuadrascamacho-svg",
     dad: "200",
   },
   {
     id: 3,
     image: Proyek3,
-    title: "IoT Heartbeat Monitoring System",
-    subtitle: "An IoT-based healthcare project developed to measure and monitor...",
-    fullDescription:"An IoT-based healthcare project developed to measure and monitor heart rate in real-time. The system connects sensors to a local web server, enabling users and healthcare providers to track data directly from a web interface. This project highlights the integration of hardware and software to create efficient medical solutions that can be applied in local clinics or personal health monitoring.",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    title: "Torreta con Detección Facial",
+    subtitle: "Sistema IoT con Visión Artificial y Arduino.",
+    fullDescription:
+      "Sistema automatizado que integra software y hardware. Utiliza C# y Emgu CV (OpenCV) para detectar rostros en tiempo real y calcular coordenadas, enviando instrucciones a un Arduino para mover una torreta física que sigue al usuario automáticamente.",
+    borderColor: "#F59E0B", // Naranja
+    gradient: "linear-gradient(145deg, #F59E0B, #000)",
+    url: "https://github.com/carlosarielcuadrascamacho-svg",
     dad: "300",
   },
   {
     id: 4,
     image: Proyek4,
-    title: "Personal Web Portfolio",
-    subtitle: "An interactive web portfolio showcasing my professional journey...",
-    fullDescription:"An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
-    borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    title: "Sistema de Gestión Escolar",
+    subtitle: "Digitalización de procesos para institución educativa.",
+    fullDescription:
+      "Software administrativo desarrollado para un Kinder local. Permite el registro y control eficiente de la información de los alumnos y datos administrativos, enfocado en una interfaz clara y simple para usuarios no técnicos.",
+    borderColor: "#8B5CF6", // Violeta
+    gradient: "linear-gradient(180deg, #8B5CF6, #000)",
+    url: "https://github.com/carlosarielcuadrascamacho-svg",
     dad: "400",
-  },
-    {
-    id: 5,
-    image: Proyek5,
-    title: "Color Blindness Detection App",
-    subtitle: "A cross-platform application available on both mobile and desktop...",
-    fullDescription:"A cross-platform application available on both mobile and desktop, created to help identify different types of color blindness through color recognition tests. The app provides users with instant results, making it useful for educational, medical, and self-assessment purposes. Its intuitive design and accessibility aim to support individuals in understanding and managing color vision deficiencies.",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
-    dad: "500",
-  },
-  {
-    id: 6,
-    image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle: "A fully functional website designed for a coffee shop, enabling...",
-    fullDescription:"A fully functional website designed for a coffee shop, enabling customers to explore the menu, learn about the shop’s story, and place orders online. The project focused on creating an attractive and modern interface, integrating responsive design for mobile and desktop, and ensuring smooth navigation for users. This website not only improved customer experience but also supported the coffee shop’s digital presence and business growth.",
-    borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
-    dad: "600",
   },
 ];
