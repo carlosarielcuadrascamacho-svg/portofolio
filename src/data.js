@@ -1,4 +1,4 @@
-import HeroImage from "/assets/hero-img.webp"; 
+import HeroImage from "/assets/hero-img.webp";
 
 const Image = {
   HeroImage,
@@ -26,7 +26,7 @@ import BootstrapImg from "/assets/tools/bootstrap.png";
 import MySqlImg from "/assets/tools/mysql.png";
 import ViteImg from "/assets/tools/vite.png";
 import VsCodeImg from "/assets/tools/vscode.png";
-
+import ArduinoImg from "/assets/tools/arduino.png";
 
 export const listTools = [
   // --- NIVEL AVANZADO ---
