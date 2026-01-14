@@ -43,6 +43,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/carlos-ariel-cuadras/b">
             <i className="ri-linkedin-fill ri-2x"></i>
           </a>
+          
           <a href="https://www.youtube.com/@FarisEdrikPrayoga">
             <i className="ri-youtube-fill ri-2x"></i>
           </a>
