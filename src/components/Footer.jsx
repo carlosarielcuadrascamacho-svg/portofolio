@@ -33,7 +33,7 @@ const Footer = () => {
       {/* Flex container adaptif */}
       <div className="w-full flex flex-col md:flex-row items-center md:justify-between gap-6">
         {/* Judul - paling atas di mobile */}
-        <h1 className="text-2xl font-bold order-1 md:order-none">Portflio</h1>
+        <h1 className="text-2xl font-bold order-1 md:order-none">Portfolio</h1>
 
         {/* Ikon Sosmed - di tengah di mobile */}
         <div className="flex gap-3 order-2 md:order-none">

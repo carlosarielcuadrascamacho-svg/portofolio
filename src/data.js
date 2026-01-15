@@ -185,7 +185,7 @@ export const listProyek = [
       "Plataforma inteligente diseñada para optimizar, monitorear y analizar el servicio de transporte universitario en tiempo real. Conecta a estudiantes, conductores y administradores en una sola plataforma, permitiendo el rastreo en vivo de las unidades, la gestión de rutas y horarios. Tecnologías: Node.js, Express, MongoDB, Leaflet, PWA.",
     borderColor: "#3B82F6", // Azul
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://tecbus-pcfl.onrender.com/",
+    url: "https://github.com/carlosarielcuadrascamacho-svg/TecBus",
     dad: "100",
   },
   {
