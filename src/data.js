@@ -82,13 +82,6 @@ export const listTools = [
     dad: "700",
   },
   {
-    id: 8,
-    gambar: ReactImg,
-    nama: "React",
-    ket: "Frontend Library",
-    dad: "900",
-  },
-  {
     id: 9,
     gambar: HtmlImg,
     nama: "HTML5",
@@ -101,13 +94,6 @@ export const listTools = [
     nama: "CSS3",
     ket: "Estilos",
     dad: "1100",
-  },
-  {
-    id: 11,
-    gambar: TailwindImg,
-    nama: "Tailwind CSS",
-    ket: "Framework CSS",
-    dad: "1200",
   },
   {
     id: 12,
@@ -152,20 +138,6 @@ export const listTools = [
     nama: "Arduino",
     ket: "IoT / Hardware",
     dad: "1800",
-  },
-  {
-    id: 18,
-    gambar: ViteImg,
-    nama: "Vite",
-    ket: "Build Tool",
-    dad: "2100",
-  },
-  {
-    id: 19,
-    gambar: VsCodeImg,
-    nama: "VS Code",
-    ket: "Editor de Código",
-    dad: "2200",
   },
 ];
 
