@@ -273,13 +273,48 @@ function App() {
 
             {/* --- CONTACT FORM MEJORADO --- */}
             {/* Agregamos mt-24 para separar y flex/justify-center para centrar */}
-            <div className="mt-24 w-full flex flex-col items-center justify-center pb-20">
+            <div id="contact" className="mt-24 w-full flex flex-col items-center justify-center pb-20">
               <h2
                 className="text-3xl md:text-4xl font-bold mb-8 text-center"
                 data-aos="fade-up"
               >
                 Contáctame
               </h2>
+              <div
+                className="flex flex-col items-center mb-10"
+                data-aos="fade-up"
+              >
+                {/* Botón de correo elegante */}
+                <a
+                  href="mailto:carlosarielcuadrascamacho@gmail.com"
+                  className="group flex items-center gap-3 px-5 py-3 rounded-full bg-zinc-900/80 border border-zinc-700 hover:border-violet-500 hover:bg-zinc-800 transition-all duration-300 shadow-lg hover:shadow-violet-500/20"
+                >
+                  {/* Icono de sobre (SVG) */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6 text-violet-400 group-hover:scale-110 transition-transform duration-300"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                    />
+                  </svg>
+
+                  {/* Texto del correo */}
+                  <span className="text-base md:text-lg text-zinc-300 group-hover:text-white font-medium tracking-wide">
+                    carlosarielcuadrascamacho@gmail.com
+                  </span>
+                </a>
+
+                <p className="text-xs text-zinc-500 mt-3 opacity-60">
+                  Clic para enviar un correo directamente
+                </p>
+              </div>
 
               <form
                 action="https://formsubmit.co/carlosarielcuadrascamacho@gmail.com"
