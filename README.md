@@ -12,8 +12,8 @@ El sitio combina diseño moderno, animaciones fluidas y elementos 3D interactivo
 ## 🚀 Demo en Vivo
 
 Puedes ver el portafolio desplegado y funcionando aquí:
-### [🔗 Ver Portafolio Online](https://tu-proyecto.onrender.com)
-*(Sustituye este enlace por tu URL real de Render)*
+
+### [🔗 Ver Portafolio Online](https://portafolio-carlos.onrender.com/)
 
 ---
 
@@ -21,14 +21,14 @@ Puedes ver el portafolio desplegado y funcionando aquí:
 
 Este proyecto fue construido con un stack moderno enfocado en rendimiento y experiencia visual:
 
-* **Core:** React 18 + Vite (Build ultra-rápido).
-* **Estilos:** Tailwind CSS v4.
-* **3D & Física:**
-    * React Three Fiber (R3F)
-    * React Three Drei
-    * React Three Rapier (Física para la tarjeta interactiva).
-* **Animaciones:** AOS (Animate On Scroll) y efectos de texto personalizados.
-* **Funcionalidad:** FormSubmit (Backend-less contact form).
+- **Core:** React 18 + Vite (Build ultra-rápido).
+- **Estilos:** Tailwind CSS v4.
+- **3D & Física:**
+  - React Three Fiber (R3F)
+  - React Three Drei
+  - React Three Rapier (Física para la tarjeta interactiva).
+- **Animaciones:** AOS (Animate On Scroll) y efectos de texto personalizados.
+- **Funcionalidad:** FormSubmit (Backend-less contact form).
 
 ## 📂 Estructura del Proyecto
 
@@ -45,25 +45,30 @@ Una visión rápida de cómo está organizado el código:
 ├── vite.config.js   # Configuración de rutas y plugins
 └── tailwind.config  # Configuración de estilos
 ```
+
 ## ⚙️ Instalación y Ejecución Local
 
 Si deseas correr este proyecto en tu máquina local:
 
 1.  **Clonar el repositorio:**
+
     ```bash
     git clone [https://github.com/carlosarielcuadrascamacho-svg/portofolio.git](https://github.com/carlosarielcuadrascamacho-svg/portofolio.git)
     cd portofolio
     ```
 
 2.  **Instalar dependencias:**
+
     ```bash
     npm install
     ```
 
 3.  **Iniciar servidor de desarrollo:**
+
     ```bash
     npm run dev
     ```
+
     El sitio estará disponible en `http://localhost:5173`.
 
 4.  **Construir para producción:**
@@ -73,10 +78,10 @@ Si deseas correr este proyecto en tu máquina local:
 
 ## 🌟 Características Destacadas
 
-* **Tarjeta 3D Interactiva:** Implementación de física con *Rapier* que permite interactuar con la credencial virtual.
-* **Responsive Design:** Adaptado totalmente a móviles y escritorio.
-* **Performance:** Optimización de carga de modelos 3D y assets.
-* **Formulario Funcional:** Conexión directa a correo electrónico sin backend dedicado.
+- **Tarjeta 3D Interactiva:** Implementación de física con _Rapier_ que permite interactuar con la credencial virtual.
+- **Responsive Design:** Adaptado totalmente a móviles y escritorio.
+- **Performance:** Optimización de carga de modelos 3D y assets.
+- **Formulario Funcional:** Conexión directa a correo electrónico sin backend dedicado.
 
 ---
 
@@ -85,10 +90,11 @@ Si deseas correr este proyecto en tu máquina local:
 Este portafolio es una versión personalizada y refactorizada basada en el trabajo open source de [rissss21](https://github.com/rissss21/portofolio).
 
 **Modificaciones realizadas por mí:**
-* Refactorización de rutas para compatibilidad con despliegue en Render/Vercel.
-* Integración de nuevos proyectos personales (TecBus, POS System, IoT).
-* Ajuste de assets 3D y texturizado.
-* Implementación de formulario de contacto y SEO.
+
+- Refactorización de rutas para compatibilidad con despliegue en Render/Vercel.
+- Integración de nuevos proyectos personales (TecBus, POS System, IoT).
+- Ajuste de assets 3D y texturizado.
+- Implementación de formulario de contacto y SEO.
 
 ---
 
@@ -96,9 +102,10 @@ Este portafolio es una versión personalizada y refactorizada basada en el traba
 
 Si te interesa mi perfil o quieres colaborar en algún proyecto, ¡hablemos!
 
-* **Email:** [carlosarielcuadrascamacho@gmail.com](mailto:carlosarielcuadrascamacho@gmail.com)
-* **LinkedIn:** [Carlos Ariel Cuadras](https://www.linkedin.com/in/carlos-ariel-cuadras/)
-* **GitHub:** [@carlosarielcuadrascamacho-svg](https://github.com/carlosarielcuadrascamacho-svg)
+- **Email:** [carlosarielcuadrascamacho@gmail.com](mailto:carlosarielcuadrascamacho@gmail.com)
+- **LinkedIn:** [Carlos Ariel Cuadras](https://www.linkedin.com/in/carlos-ariel-cuadras/)
+- **GitHub:** [@carlosarielcuadrascamacho-svg](https://github.com/carlosarielcuadrascamacho-svg)
 
 ---
-*Hecho con ❤️ y ☕ por Carlos Ariel.*
+
+_Hecho con ❤️ y ☕ por Carlos Ariel._
